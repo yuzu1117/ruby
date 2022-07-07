@@ -1,5 +1,5 @@
 class Car
-  
+
   def move(direction,distance)
     self.turn(direction)
     self.run(distance)
@@ -31,7 +31,7 @@ class Car
     puts"#{direction}に曲がります"
   end
 end
-  
+
 car=Car.new
 car.turn("右")
 
